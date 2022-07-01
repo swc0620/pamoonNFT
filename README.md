@@ -1,15 +1,15 @@
-# Basic Sample Hardhat Project
+# Pamoon NFT
+## 1. Install packages
+```
+git clone <this repository>
+cd pamoonNFT
+yarn install
+```
+## 2. Set .env file
+* add .env file under pamoonNFT/
+* add \<mnemonic==\<your kaikas wallet mnemonic>> to .env file
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+## 3. Run if test code works
+```
+yarn hardhat test ./test/pamoonNFT.test.ts
 ```
