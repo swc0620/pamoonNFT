@@ -17,15 +17,15 @@ describe("PamoonNFT", () => {
             admin,
             PamoonNFTArtifact,
             [
-                "2022SummerConcertPamoonIRang", "PamoonIRang"
+                "PamoonNFT", "PMNFT"
             ]
         ) as PamoonNFT;
     });
 
     context('new NFT minted', async () => {
         it('has given data', async () => {
-            expect(await pamoonNFT.name()).to.be.equal("2022SummerConcertPamoonIRang");
-            expect(await pamoonNFT.symbol()).to.be.equal("PamoonIRang");
+            expect(await pamoonNFT.name()).to.be.equal("PamoonNFT");
+            expect(await pamoonNFT.symbol()).to.be.equal("PMNFT");
         });
 
         it('mints new NFT and transfers it to the user1', async () => {
