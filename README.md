@@ -11,5 +11,6 @@ yarn install
 
 ## 3. Run if test code works
 ```
+yarn hardhat compile
 yarn hardhat test ./test/pamoonNFT.test.ts
 ```
