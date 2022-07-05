@@ -1,7 +1,7 @@
 import { waffle } from "hardhat";
 import { expect } from "chai";
 
-import PamoonNFTArtifact from  "../artifacts/contracts/PamoonNFT.sol/PamoonNFT.json";
+import PamoonNFTArtifact from  "../artifacts/contracts/pamoonNFT.sol/PamoonNFT.json";
 import { PamoonNFT } from "../typechain-types/contracts/pamoonNFT.sol/PamoonNFT";
 
 const { deployContract } = waffle;
